@@ -31,7 +31,6 @@ public class DEMO {
             assert obj.get("title") instanceof String;
         }
     }
-
     @Test
     void test_put_cell() {
         File jsonData = new File("C:\\Users\\darshb\\Desktop\\REST_Assured_MINI\\src\\test\\resources\\postdata.json");
